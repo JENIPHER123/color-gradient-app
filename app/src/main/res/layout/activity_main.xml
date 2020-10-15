@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".gradient2"
+    android:background="@drawable/gradient"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Codding with Jenny!!  Background Color Gradients."
+        android:textAlignment="center"
+        android:textFontWeight="@android:integer/config_longAnimTime"
+        android:textSize="25sp"
+        android:textColor="#000"
+        android:fontFamily="cursive"
+        android:textStyle="italic"
+        android:layout_marginTop="178dp"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="NEXT"
+            android:background="#0A2A29"
+            android:textColor="#fff"
+            android:layout_marginTop="140dp"
+
+            android:layout_marginLeft="140dp"
+
+            />
+    </RelativeLayout>
+</LinearLayout>
